@@ -14,6 +14,7 @@ conn = sqlite3.connect("./databases/armor.db")
 
 # testing connection
 # conn = sqlite3.connect(":memory:")
+#NOPE
 
 c = conn.cursor()
 
